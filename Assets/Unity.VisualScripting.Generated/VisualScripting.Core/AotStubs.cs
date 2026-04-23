@@ -766,6 +766,8 @@ namespace Unity.VisualScripting.Generated.Aot
 	// UnityEngine.Transform.right
 	// UnityEngine.Transform.forward
 	// UnityEngine.CharacterController.Move
+	// --------------- Scene Stubs
+	// UnityEngine.GameObject..ctor
 	[UnityEngine.Scripting.PreserveAttribute()]
 	public class AotStubs
 	{
@@ -9521,6 +9523,13 @@ namespace Unity.VisualScripting.Generated.Aot
 			global::Unity.VisualScripting.InstanceFunctionInvoker<UnityEngine.CharacterController, UnityEngine.Vector3, UnityEngine.CollisionFlags> optimized = new global::Unity.VisualScripting.InstanceFunctionInvoker<UnityEngine.CharacterController, UnityEngine.Vector3, UnityEngine.CollisionFlags>(default(global::System.Reflection.MethodInfo));
 			optimized.Invoke(default(global::UnityEngine.CharacterController), arg0);
 			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.GameObject..ctor
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_GameObject_ctor()
+		{
+			new UnityEngine.GameObject();
 		}
 	}
 }
