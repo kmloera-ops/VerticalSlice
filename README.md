@@ -9,23 +9,23 @@
 ## Milestone 2 Devlog
 ### Question 1:
 1. Create a light
-    a. Create the lights in unity
-    b. Arrange them around specific places around the map
-     c.Give them a collider
+   1. Create the lights in unity
+   2. Arrange them around specific places around the map
+   3. Give them a collider
 2. Make it so the lights repel the monster
-    a. Set up monster collision with the light
-    b. Set up navmesh to send the monster in the opposite direction of the light
-    c. Turn off that navmesh when the monster leaves it
+     1. Set up monster collision with the light
+     2. Set up navmesh to send the monster in the opposite direction of the light
+     3. Turn off that navmesh when the monster leaves it
 3. Make the lights controllable by the player
-    a. Create a button that can turn on all the lights
-    b. Create a timer so that after a certain amount of seconds they turn off
+   1. Create a button that can turn on all the lights
+   2. Create a timer so that after a certain amount of seconds they turn off
 4. Create a tablet UI
-    a. Create a tablet UI that can pull up after the player presses E
-    b. After pulling up the UI it will stop player movement and unlock mouse movement while keeping the player in the same space but allow them to move the mouse around to interact with the tablet.
+   1. Create a tablet UI that can pull up after the player presses E
+   2. After pulling up the UI it will stop player movement and unlock mouse movement while keeping the player in the same space but allow them to move the mouse around to interact with the tablet.
 5. Connect the tablet UI to the lights
-    a. Have the lights appear as on and off button on the tablet so that the player can turn them on and off
-    b. Show which lights are off and which lights are on
-    c. Send a signal from the tablet to turn on a specific light.
+    1. Have the lights appear as on and off button on the tablet so that the player can turn them on and off
+    2. Show which lights are off and which lights are on
+    3. Send a signal from the tablet to turn on a specific light.
 
 ### Question 2:
 I do believe that it helped me build my feature for this milestone because it allowed me to not overcomplicate what was going on in my head and set mini goals for myself. This really helped me keep myself accountable in the times of when I really do not want to do work. Before when I used to do activities like this I wasn’t really sure if it was helping because it felt like I didn’t know enough to plan ahead. But now that I know more about programming and the game engine I feel like I am able to create better task steps. What I would do to improve my breakdowns I think is to add more technical terms and where I would do the task. I also would create a long recording because it would be nice to keep track of where everything is on a central doc.
