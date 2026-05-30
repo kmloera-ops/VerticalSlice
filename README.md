@@ -41,7 +41,16 @@ The Unity system that I used for my game is Navmesh and inside my project I use 
 
 
 ## Milestone 3 Devlog
-Milestone 3 Devlog goes here.
+### Question 1:
+The way that my shader graph works is that it uses time and multiply to create the flashing speed. If I were to decrease the x values it would flash slower and if I were to increase it then it would flash faster. This then outputs into a sine node which gives out values between -1 and 1. Though these numbers should just be between 0 and 1 so to do that I attached a remap node which converts the sine wave into a range from 0 to 1 rather than -1 to 1. Then with the Lerp node it is able to blend the colors together so when it receives a 0 from the remap node it turns the base color black and when it receives a 1 it turns the color to white. This lerp node is able to make a smooth transition between white and black. This is then connected to the base color input. This shader can be found on the monster model and found in the Shaders folder called Monster Shader.
+<img width="1078" height="791" alt="Shader graph" src="https://github.com/user-attachments/assets/e098d05c-1208-407c-b235-bf0ac8d6b07a" />
+
+### Question 2:
+So what I changed to my game from the playtesting was that I created a new tablet UI that shows where the lights are on a map. This map shows where the player starts and where the lights are so that they can have an easier time controlling them. I fixed lag issues with the map so that players can play more smoothly since many were complaining about lag spikes. I also saw that players weren’t encouraged to find the exit and thought it would be easier to just wait out the monster so I completely removed the win condition of the timer. Instead I increased it to 2 minutes for the player to get out or they lose. At this second I have been trying to work on setting up audio for the monster to play when it is getting closer but right now I added a shader graph to the monster so that it is more noticeable when you look at it. Then the one of the biggest complaints that I fixed was I changed the mouse sensitivity to be lower so players do not have to be so careful when moving. So I believe the only playtesting feedback that I have not yet addressed was adding SFX so that players know when the monster is getting closer to them.
+
+### Question 3:
+Since the last milestone I have added a bit more. First I created more lights and expanded the map. Then in this new expanded map I created an exit for the player to be able to find to escape. With this new exit I have also changed the win condition of waiting out the timer to instead have the player have to reach the exit to win. I also created a map when the tablet is opened so that players can see where they start and where the lights are on the map. I also made the enemy look different while also adding shaders. Now not only does the monster flash white and black the map also looks slightly different. So all in all the objective of the game has changed to finding an exit instead of surviving this way the players have more encounters with the monster. Although there are a few issues which I will address in the future such as right now there is a bug with mouse controls where sometimes the camera will flick downwards and I will of course address adding audio cues at a later date.
+
 ## Milestone 4 Devlog
 Milestone 4 Devlog goes here.
 ## Final Devlog
