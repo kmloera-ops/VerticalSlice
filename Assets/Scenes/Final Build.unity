@@ -205,7 +205,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1429311946}
         m_TargetAssemblyTypeName: LightController, Assembly-CSharp
         m_MethodName: ActivateLight
         m_Mode: 1
@@ -2315,7 +2315,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 275367186}
         m_TargetAssemblyTypeName: LightController, Assembly-CSharp
         m_MethodName: ActivateLight
         m_Mode: 1
@@ -3460,7 +3460,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 160379873}
         m_TargetAssemblyTypeName: LightController, Assembly-CSharp
         m_MethodName: ActivateLight
         m_Mode: 1
@@ -5749,7 +5749,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 71881231}
         m_TargetAssemblyTypeName: LightController, Assembly-CSharp
         m_MethodName: ActivateLight
         m_Mode: 1
@@ -7715,7 +7715,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 590126201}
         m_TargetAssemblyTypeName: LightController, Assembly-CSharp
         m_MethodName: ActivateLight
         m_Mode: 1
@@ -11257,7 +11257,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1435509620}
         m_TargetAssemblyTypeName: LightController, Assembly-CSharp
         m_MethodName: ActivateLight
         m_Mode: 1
@@ -14484,7 +14484,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1957731054}
         m_TargetAssemblyTypeName: LightController, Assembly-CSharp
         m_MethodName: ActivateLight
         m_Mode: 1
@@ -15013,7 +15013,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1146700322}
         m_TargetAssemblyTypeName: LightController, Assembly-CSharp
         m_MethodName: ActivateLight
         m_Mode: 1
