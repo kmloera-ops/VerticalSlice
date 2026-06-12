@@ -1,4 +1,3 @@
-<img width="852" height="477" alt="example" src="https://github.com/user-attachments/assets/20da8989-93ad-4655-b25c-c07fb9ace8f5" />
 # GDIM33 Vertical Slice
 ## Milestone 1 Devlog
 1. The movement script graph first detects whenever an input action is pressed such as WASD. Then depending on the key pressed it will be multiplied by moveSpeed and Deltatime. Then this new variable will have its x and y received and x will be multiplied by getRight and y multiplied by getForward. Then the final vector 3 x value and vector 3 y value will be added together and then plugged into character controller move to move the player in the direction the player presses.
